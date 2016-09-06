@@ -12,6 +12,7 @@ meteor build --directory $BUNDLE_DIR --server=http://localhost:3000
 
 cd $BUNDLE_DIR/bundle/programs/server/
 npm i
+npm install bcrypt
 
 mv $BUNDLE_DIR/bundle /built_app
 
